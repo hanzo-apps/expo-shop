@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Hanzo Shop",
+    "slug": "expo-shop",
+    "version": "1.0.0",
+    "scheme": "expo-shop",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": { "supportsTablet": true, "bundleIdentifier": "ai.hanzo.shop" },
+    "android": { "package": "ai.hanzo.shop", "edgeToEdgeEnabled": true },
+    "web": { "bundler": "metro", "output": "static" },
+    "plugins": ["expo-router"]
+  }
+}
